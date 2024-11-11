@@ -1,0 +1,9 @@
+@import "../../App.scss";
+
+.note-single-section{
+    grid-template-columns: repeat(1, 70%);
+    grid-column-gap: 10px;
+    .note-single-title{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
